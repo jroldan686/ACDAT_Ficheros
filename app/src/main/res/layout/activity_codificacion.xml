@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jrl.acdat.ficheros.CodificacionActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txvFicheroLectura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fichero lectura:" />
+
+        <EditText
+            android:id="@+id/edtFicheroLectura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="operaciones.txt"/>
+
+        <Button
+            android:id="@+id/btnLeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leer" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtContenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txvFicheroEscritura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fichero escritura:" />
+
+        <EditText
+            android:id="@+id/edtFicheroEscritura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="otro.txt" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdbUtf8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UTF-8"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rdbUtf16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UTF-16" />
+
+        <RadioButton
+            android:id="@+id/rdbIso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISO-8859-15" />
+
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jrl.acdat.ficheros.ExploracionActivity">
+
+    <Button
+        android:id="@+id/btnAbrirFichero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir fichero" />
+
+    <TextView
+        android:id="@+id/txvRutaFichero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruta del fichero" />
+</LinearLayout>

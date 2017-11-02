@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jrl.acdat.ficheros.MainActivity">
+
+    <Button
+        android:id="@+id/btnEscribirInterna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Escribir en memoria interna" />
+
+    <Button
+        android:id="@+id/btnEscribirExterna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Escribir en memoria externa" />
+
+    <Button
+        android:id="@+id/btnLeerFicheros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Leer ficheros" />
+
+    <Button
+        android:id="@+id/btnCodificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Codificacion" />
+
+    <Button
+        android:id="@+id/btnExploracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Exploracion" />
+
+</LinearLayout>

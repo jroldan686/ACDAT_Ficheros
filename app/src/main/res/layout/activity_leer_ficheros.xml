@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jrl.acdat.ficheros.LeerFicherosActivity">
+
+    <TextView
+        android:id="@+id/txvFicheros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ficheros"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txvOperando1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operando 1 (numero.txt):" />
+
+    <EditText
+        android:id="@+id/edtOperando1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/txvOperando2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operando 2 (valor.txt):" />
+
+    <EditText
+        android:id="@+id/edtOperando2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/txvOperando3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operando 3 (dato.txt):" />
+
+    <EditText
+        android:id="@+id/edtOperando3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/txvOperando4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operando 4 (dato_sd.txt):" />
+
+    <EditText
+        android:id="@+id/edtOperando4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:gravity="right" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/txvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado:" />
+</LinearLayout>
