@@ -117,7 +117,7 @@ public class CodificacionActivity extends AppCompatActivity implements View.OnCl
             if(path != null) {
                 //Log.d("Path: ", path);
                 //Toast.makeText(this, "Fichero leido con exito", Toast.LENGTH_SHORT).show();
-                edtContenido.setText(miMemoria.leerRutaExterna(path, "UTF-8"));
+                edtContenido.setText(miMemoria.leerRutaExterna(path, "UTF-8").getContenido());
             }
         }
     }
